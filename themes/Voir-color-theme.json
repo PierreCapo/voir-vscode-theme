@@ -1,0 +1,110 @@
+{
+  "name": "Voir",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#011627",
+    "sideBar.background": "#011627",
+    "sideBarSectionHeader.background": "#011627",
+    "editorGroupHeader.noTabsBackground": "#011627",
+    "activityBar.background": "#011627",
+    "editorGroupHeader.tabsBackground": "#011627",
+    "editor.foreground": "#eeffff",
+    "activityBarBadge.background": "#189edc",
+    "sideBarTitle.foreground": "#bbbbbb",
+
+    "list.activeSelectionBackground": "#ffffff11",
+    "list.activeSelectionForeground": "#fff",
+    "list.hoverBackground": "#ffffff05",
+    "list.hoverForeground": "#ffffffee"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "support.type.property-name.json",
+        "entity.other.attribute-name.tsx",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#189edc"
+      }
+    },
+    {
+      "name": "Text nested in React tags",
+      "scope": [
+        "meta.jsx.children",
+        "meta.jsx.children.js",
+        "meta.jsx.children.tsx"
+      ],
+      "settings": {
+        "foreground": "#fff"
+      }
+    },
+    {
+      "name": "entity.name.tag.tsx",
+      "scope": [
+        "support.class.component.tsx",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#f5e447"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.import.tsx",
+        "keyword.control.from.tsx",
+        "keyword.control.export.tsx"
+      ],
+      "settings": {
+        "foreground": "#EE6391",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["string.quoted.single.tsx", "constant.numeric.decimal.tsx"],
+      "settings": {
+        "foreground": "#00ccff"
+      }
+    },
+    {
+      "scope": ["variable.other.readwrite.alias.tsx"],
+      "settings": {
+        "foreground": "#3dc7b9"
+      }
+    },
+    {
+      "scope": [
+        "meta.object-literal.key.tsx",
+        "punctuation.definition.block.tsx"
+      ],
+      "settings": {
+        "foreground": "#3dc7b9"
+      }
+    },
+    {
+      "scope": ["storage.type.tsx", "keyword.operator.assignment.tsx"],
+      "settings": {
+        "foreground": "#EE6391"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.constant.tsx",
+        "meta.arrow.tsx",
+        "meta.brace.square.tsx",
+        "punctuation.terminator.statement.tsx"
+      ],
+      "settings": {
+        "foreground": "#B085F5"
+      }
+    },
+    {
+      "scope": ["comment.block.tsx", "comment.line.double-slash.tsx"],
+      "settings": {
+        "foreground": "#546e7a"
+      }
+    }
+  ]
+}
