@@ -3,8 +3,8 @@
     "displayName": "Voir",
     "description": "Voir color scheme",
     "repository": "PierreCapo/voir-vscode-theme",
-    "version": "0.0.1",
-    "publisher": "PierreCapo",
+    "version": "0.0.2",
+    "publisher": "pierrecapo",
     "engines": {
         "vscode": "^1.41.0"
     },
@@ -12,7 +12,7 @@
         "Themes"
     ],
     "scripts": {
-        "publish-theme": "npx vsce publish"
+        "publish-theme": "vsce publish"
     },
     "contributes": {
         "themes": [

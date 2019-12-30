@@ -15,7 +15,9 @@
     "list.activeSelectionBackground": "#ffffff11",
     "list.activeSelectionForeground": "#fff",
     "list.hoverBackground": "#ffffff05",
-    "list.hoverForeground": "#ffffffee"
+    "list.hoverForeground": "#ffffffee",
+
+    "tab.inactiveBackground": "#011627"
   },
   "tokenColors": [
     {
@@ -77,33 +79,72 @@
     {
       "scope": [
         "meta.object-literal.key.tsx",
-        "punctuation.definition.block.tsx"
+        "punctuation.definition.block.tsx",
+        "variable.other.object.tsx",
+        "string.unquoted.js",
+        "meta.definition.property.tsx",
+        "keyword.operator.type.annotation.tsx",
+        "keyword.operator.optional.tsx",
+        "variable.other.readwrite.tsx",
+        "variable.other.property.tsx"
       ],
       "settings": {
         "foreground": "#3dc7b9"
       }
     },
     {
-      "scope": ["storage.type.tsx", "keyword.operator.assignment.tsx"],
+      "scope": [
+        "storage.type.tsx",
+        "keyword.operator.assignment.tsx",
+        "keyword.control.default.tsx",
+        "keyword.operator.ternary.tsx",
+        "storage.type.interface.tsx",
+        "keyword.operator.arithmetic.tsx",
+        "constant.language.boolean.false.tsx",
+        "constant.language.boolean.true.tsx",
+        "keyword.operator.logical.tsx",
+        "constant.language.null.tsx"
+      ],
       "settings": {
         "foreground": "#EE6391"
       }
     },
     {
       "scope": [
-        "variable.other.constant.tsx",
         "meta.arrow.tsx",
         "meta.brace.square.tsx",
-        "punctuation.terminator.statement.tsx"
+        "punctuation.terminator.statement.tsx",
+        "variable.other.constant.tsx"
       ],
       "settings": {
         "foreground": "#B085F5"
       }
     },
     {
+      "scope": ["entity.name.function.tsx", "meta.brace.round.tsx"],
+      "settings": {
+        "foreground": "#B085F5",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "scope": ["comment.block.tsx", "comment.line.double-slash.tsx"],
       "settings": {
         "foreground": "#546e7a"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.tsx",
+        "entity.name.type.module.tsx",
+        "entity.name.type.interface.tsx",
+        "support.type.primitive.tsx",
+        "punctuation.definition.typeparameters.begin.tsx",
+        "punctuation.definition.typeparameters.end.tsx",
+        "meta.type.annotation.tsx"
+      ],
+      "settings": {
+        "foreground": "#FF9800"
       }
     }
   ]
