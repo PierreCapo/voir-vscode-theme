@@ -22,10 +22,13 @@
   "tokenColors": [
     {
       "scope": [
-        "support.type.property-name.json",
         "entity.other.attribute-name.tsx",
         "punctuation.section.embedded.begin.tsx",
-        "punctuation.section.embedded.end.tsx"
+        "punctuation.section.embedded.end.tsx",
+        "entity.other.attribute-name.ts",
+        "punctuation.section.embedded.begin.ts",
+        "punctuation.section.embedded.end.ts",
+        "JSXAttrs"
       ],
       "settings": {
         "foreground": "#189edc"
@@ -47,7 +50,16 @@
       "scope": [
         "support.class.component.tsx",
         "punctuation.definition.tag.begin.tsx",
-        "punctuation.definition.tag.end.tsx"
+        "punctuation.definition.tag.end.tsx",
+        "string.template.tsx",
+        "support.class.component.ts",
+        "punctuation.definition.tag.begin.ts",
+        "punctuation.definition.tag.end.ts",
+        "string.template.ts",
+        "meta.tag.jsx",
+        "JSXEndTagStart",
+        "JSXStartTagEnd",
+        "string.template.js"
       ],
       "settings": {
         "foreground": "#f5e447"
@@ -55,29 +67,23 @@
     },
     {
       "scope": [
-        "keyword.control.import.tsx",
-        "keyword.control.from.tsx",
-        "keyword.control.export.tsx"
+        "string.quoted.single.tsx",
+        "constant.numeric.decimal.tsx",
+        "string.quoted.double.tsx",
+        "string.quoted.single.ts",
+        "constant.numeric.decimal.ts",
+        "string.quoted.double.ts",
+        "string.quoted.double.json",
+        "string.quoted.module.js",
+        "constant.numeric.js"
       ],
-      "settings": {
-        "foreground": "#EE6391",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": ["string.quoted.single.tsx", "constant.numeric.decimal.tsx"],
       "settings": {
         "foreground": "#00ccff"
       }
     },
     {
-      "scope": ["variable.other.readwrite.alias.tsx"],
-      "settings": {
-        "foreground": "#3dc7b9"
-      }
-    },
-    {
       "scope": [
+        "variable.other.readwrite.alias.tsx",
         "meta.object-literal.key.tsx",
         "punctuation.definition.block.tsx",
         "variable.other.object.tsx",
@@ -86,7 +92,24 @@
         "keyword.operator.type.annotation.tsx",
         "keyword.operator.optional.tsx",
         "variable.other.readwrite.tsx",
-        "variable.other.property.tsx"
+        "variable.other.property.tsx",
+        "variable.other.readwrite.alias.ts",
+        "meta.object-literal.key.ts",
+        "punctuation.definition.block.ts",
+        "variable.other.object.ts",
+        "meta.definition.property.ts",
+        "keyword.operator.type.annotation.ts",
+        "keyword.operator.optional.ts",
+        "variable.other.readwrite.ts",
+        "variable.other.property.ts",
+        "punctuation.definition.dictionary.end.json",
+        "punctuation.separator.dictionary.key-value.json",
+        "punctuation.separator.dictionary.pair.json",
+        "punctuation.definition.dictionary.begin.json",
+        "source.css.scss",
+        "variable.other.property.js",
+        "variable.other.readwrite.js",
+        "meta.brace.curly.js"
       ],
       "settings": {
         "foreground": "#3dc7b9"
@@ -94,6 +117,7 @@
     },
     {
       "scope": [
+        "constant.language.json",
         "storage.type.tsx",
         "keyword.operator.assignment.tsx",
         "keyword.control.default.tsx",
@@ -103,45 +127,129 @@
         "constant.language.boolean.false.tsx",
         "constant.language.boolean.true.tsx",
         "keyword.operator.logical.tsx",
-        "constant.language.null.tsx"
+        "constant.language.null.tsx",
+        "meta.type.declaration.tsx",
+        "punctuation.definition.template-expression.begin.tsx",
+        "punctuation.definition.template-expression.end.tsx",
+        "storage.type.ts",
+        "keyword.operator.assignment.ts",
+        "keyword.control.default.ts",
+        "keyword.operator.ternary.ts",
+        "storage.type.interface.ts",
+        "keyword.operator.arithmetic.ts",
+        "constant.language.boolean.false.ts",
+        "constant.language.boolean.true.ts",
+        "keyword.operator.logical.ts",
+        "constant.language.null.ts",
+        "meta.type.declaration.ts",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts",
+        "storage.type.js",
+        "keyword.other.typedef.flowtype",
+        "storage.type.class.js",
+        "storage.type.extends.js",
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.true.js",
+        "keyword.operator.assignment.js"
       ],
       "settings": {
-        "foreground": "#EE6391"
+        "foreground": "#e17096"
       }
     },
     {
       "scope": [
+        "keyword.control.import.tsx",
+        "keyword.control.from.tsx",
+        "keyword.control.export.tsx",
+        "keyword.control.flow.tsx",
+        "keyword.control.import.ts",
+        "keyword.control.from.ts",
+        "keyword.control.export.ts",
+        "keyword.control.flow.ts",
+        "keyword.control.module.js",
+        "keyword.control.flow.js",
+        "variable.language.this.js"
+      ],
+      "settings": {
+        "foreground": "#e17096",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.json",
         "meta.arrow.tsx",
         "meta.brace.square.tsx",
         "punctuation.terminator.statement.tsx",
-        "variable.other.constant.tsx"
+        "variable.other.constant.tsx",
+        "variable.parameter.tsx",
+        "meta.arrow.ts",
+        "meta.brace.square.ts",
+        "punctuation.terminator.statement.ts",
+        "variable.other.constant.ts",
+        "variable.parameter.ts",
+        "variable.other.constant.js",
+        "variable.other.class.js",
+        "entity.name.class.js",
+        "meta.brace.round.js",
+        "storage.type.function.arrow.js"
       ],
       "settings": {
         "foreground": "#B085F5"
       }
     },
     {
-      "scope": ["entity.name.function.tsx", "meta.brace.round.tsx"],
+      "scope": [
+        "entity.name.function.tsx",
+        "meta.brace.round.tsx",
+        "entity.name.function.tagged-template.tsx",
+        "entity.name.function.ts",
+        "meta.brace.round.ts",
+        "entity.name.function.tagged-template.ts",
+        "entity.name.function.js",
+        "entity.name.function.method.js"
+      ],
       "settings": {
         "foreground": "#B085F5",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": ["comment.block.tsx", "comment.line.double-slash.tsx"],
+      "scope": [
+        "comment.block.tsx",
+        "comment.line.double-slash.tsx",
+        "comment.block.ts",
+        "comment.line.double-slash.ts",
+        "comment.block.jsx",
+        "comment.line.double-slash.jsx",
+        "comment.block.js",
+        "comment.line.double-slash.js"
+      ],
       "settings": {
         "foreground": "#546e7a"
       }
     },
     {
       "scope": [
+        "support.type.property-name.json",
         "entity.name.type.tsx",
         "entity.name.type.module.tsx",
         "entity.name.type.interface.tsx",
         "support.type.primitive.tsx",
         "punctuation.definition.typeparameters.begin.tsx",
         "punctuation.definition.typeparameters.end.tsx",
-        "meta.type.annotation.tsx"
+        "meta.type.annotation.tsx",
+        "entity.name.type.alias.tsx",
+        "entity.name.type.ts",
+        "entity.name.type.module.ts",
+        "entity.name.type.interface.ts",
+        "support.type.primitive.ts",
+        "punctuation.definition.typeparameters.begin.ts",
+        "punctuation.definition.typeparameters.end.ts",
+        "meta.type.annotation.ts",
+        "entity.name.type.alias.ts",
+        "support.type.class.flowtype",
+        "support.type.builtin.class.flowtype"
       ],
       "settings": {
         "foreground": "#FF9800"
