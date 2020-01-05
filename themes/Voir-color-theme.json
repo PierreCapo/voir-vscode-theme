@@ -13,12 +13,21 @@
     "activityBarBadge.background": "#189edc",
     "sideBarTitle.foreground": "#bbbbbb",
 
-    "list.activeSelectionBackground": "#000",
-    "list.activeSelectionForeground": "#fff",
     "list.hoverBackground": "#ffffff05",
     "list.hoverForeground": "#ffffffee",
 
-    "tab.inactiveBackground": "#011627"
+    "tab.inactiveBackground": "#011627",
+
+    "gitDecoration.deletedResourceForeground": "#e17096",
+    "gitDecoration.conflictingResourceForeground": "#b871d0",
+    "gitDecoration.modifiedResourceForeground": "#249ef5",
+    "gitDecoration.untrackedResourceForeground": "#3dc7b9",
+    "gitDecoration.ignoredResourceForeground": "#777fabaa",
+
+    "editorSuggestWidget.background": "#000030",
+    "editorSuggestWidget.foreground": "#249ef5",
+    "editorSuggestWidget.highlightForeground": "#f5e447",
+    "editorSuggestWidget.selectedBackground": "#202080"
   },
   "tokenColors": [
     {
@@ -174,7 +183,10 @@
         "keyword.operator.assignment.js",
         "constant.language.null.js",
         "keyword.operator.ternary.js",
-        "entity.quasi.element.js"
+        "entity.quasi.element.js",
+        "constant.language.undefined.tsx",
+        "constant.language.undefined.ts",
+        "constant.language.undefined.js"
       ],
       "settings": {
         "foreground": "#b871d0"
