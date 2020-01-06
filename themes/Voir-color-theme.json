@@ -38,7 +38,10 @@
         "entity.other.attribute-name.ts",
         "punctuation.section.embedded.begin.ts",
         "punctuation.section.embedded.end.ts",
-        "JSXAttrs"
+        "JSXAttrs",
+        "keyword.control.trycatch.js",
+        "meta.method-call.with-arguments.js",
+        "keyword.operator.logical.js"
       ],
       "settings": {
         "foreground": "#e17096"
@@ -139,7 +142,10 @@
         "variable.other.object.property.ts",
         "variable.other.object.js",
         "variable.other.readwrite.shorthandpropertyname.js",
-        "storage.type.function.js"
+        "storage.type.function.js",
+        "variable.other.property.static.js",
+        "storage.modifier.import.java",
+        "variable.other.property.static.js"
       ],
       "settings": {
         "foreground": "#3dc7b9"
@@ -192,7 +198,9 @@
         "keyword.control.switch.ts",
         "keyword.control.conditional.ts",
         "keyword.control.switch.tsx",
-        "keyword.control.conditional.tsx"
+        "keyword.control.conditional.tsx",
+        "keyword.control.loop.js",
+        "storage.type.annotation.java"
       ],
       "settings": {
         "foreground": "#b871d0"
@@ -213,7 +221,11 @@
         "variable.language.this.js",
         "keyword.operator.new.js",
         "support.class.builtin.js",
-        "keyword.control.module.reference.js"
+        "keyword.control.module.reference.js",
+        "storage.modifier.js",
+        "keyword.operator.typeof.js",
+        "keyword.other.import.java",
+        "keyword.control.java"
       ],
       "settings": {
         "foreground": "#b871d0",
@@ -241,7 +253,8 @@
         "punctuation.terminator.statement.js",
         "meta.brace.square.js",
         "meta.delimiter.comma.js",
-        "keyword.operator.accessor.js"
+        "keyword.operator.accessor.js",
+        "entity.name.type.instance.js"
       ],
       "settings": {
         "foreground": "#249ef5"
@@ -272,7 +285,11 @@
         "comment.block.jsx",
         "comment.line.double-slash.jsx",
         "comment.block.js",
-        "comment.line.double-slash.js"
+        "comment.line.double-slash.js",
+        "comment.block.documentation.js",
+        "comment.block.documentation.ts",
+        "comment.block.documentation.tsx",
+        "comment.block.javadoc.java"
       ],
       "settings": {
         "foreground": "#546e7a"
@@ -302,7 +319,9 @@
         "keyword.operator.maybe.flowtype",
         "punctuation.flowtype",
         "support.type.builtin.primitive.flowtype",
-        "meta.object.flowtype"
+        "meta.object.flowtype",
+        "keyword.operator.optional.parameter.flowtype",
+        "storage.type.generic.java"
       ],
       "settings": {
         "foreground": "#FF9800"
