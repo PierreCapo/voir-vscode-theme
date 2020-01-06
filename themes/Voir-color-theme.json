@@ -117,7 +117,6 @@
         "variable.other.readwrite.alias.tsx",
         "meta.object-literal.key.tsx",
         "punctuation.definition.block.tsx",
-        "variable.other.object.tsx",
         "string.unquoted.js",
         "meta.definition.property.tsx",
         "keyword.operator.type.annotation.tsx",
@@ -127,7 +126,7 @@
         "variable.other.readwrite.alias.ts",
         "meta.object-literal.key.ts",
         "punctuation.definition.block.ts",
-        "variable.other.object.ts",
+        "variable.other.object",
         "meta.definition.property.ts",
         "keyword.operator.type.annotation.ts",
         "keyword.operator.optional.ts",
@@ -145,12 +144,13 @@
         "punctuation.separator.key-value.js",
         "variable.other.constant.js",
         "variable.other.object.property.ts",
-        "variable.other.object.js",
         "variable.other.readwrite.shorthandpropertyname.js",
         "storage.type.function.js",
         "variable.other.property.static.js",
         "storage.modifier.import.java",
-        "variable.other.property.static.js"
+        "variable.other.property.static.js",
+        "variable.other.definition",
+        "variable.other"
       ],
       "settings": {
         "foreground": "#3dc7b9"
@@ -159,45 +159,35 @@
     {
       "scope": [
         "constant.language.json",
-        "storage.type.tsx",
         "keyword.operator.assignment.tsx",
         "keyword.control.default.tsx",
         "keyword.operator.ternary.tsx",
         "storage.type.interface.tsx",
         "keyword.operator.arithmetic.tsx",
-        "constant.language.boolean.false.tsx",
-        "constant.language.boolean.true.tsx",
+        "constant.language.boolean",
         "keyword.operator.logical.tsx",
         "constant.language.null.tsx",
-        "meta.type.declaration.tsx",
         "punctuation.definition.template-expression.begin.tsx",
         "punctuation.definition.template-expression.end.tsx",
-        "storage.type.ts",
         "keyword.operator.assignment.ts",
         "keyword.control.default.ts",
         "keyword.operator.ternary.ts",
         "storage.type.interface.ts",
         "keyword.operator.arithmetic.ts",
-        "constant.language.boolean.false.ts",
-        "constant.language.boolean.true.ts",
         "keyword.operator.logical.ts",
         "constant.language.null.ts",
-        "meta.type.declaration.ts",
+        "meta.type.declaration",
         "punctuation.definition.template-expression.begin.ts",
         "punctuation.definition.template-expression.end.ts",
-        "storage.type.js",
+        "storage.type",
         "keyword.other.typedef.flowtype",
         "storage.type.class.js",
         "storage.type.extends.js",
-        "constant.language.boolean.false.js",
-        "constant.language.boolean.true.js",
         "keyword.operator.assignment.js",
-        "constant.language.null.js",
+        "constant.language.null",
         "keyword.operator.ternary.js",
         "entity.quasi.element.js",
-        "constant.language.undefined.tsx",
-        "constant.language.undefined.ts",
-        "constant.language.undefined.js",
+        "constant.language.undefined",
         "keyword.control.switch.js",
         "keyword.control.conditional.js",
         "keyword.control.switch.ts",
@@ -205,7 +195,8 @@
         "keyword.control.switch.tsx",
         "keyword.control.conditional.tsx",
         "keyword.control.loop.js",
-        "storage.type.annotation.java"
+        "storage.type.annotation.java",
+        "meta.class"
       ],
       "settings": {
         "foreground": "#b871d0"
@@ -213,18 +204,18 @@
     },
     {
       "scope": [
-        "keyword.control.import.tsx",
         "keyword.control.from.tsx",
         "keyword.control.export.tsx",
         "keyword.control.flow.tsx",
-        "keyword.control.import.ts",
+        "keyword.control.import",
         "keyword.control.from.ts",
         "keyword.control.export.ts",
         "keyword.control.flow.ts",
         "keyword.control.module.js",
         "keyword.control.flow.js",
         "variable.language.this.js",
-        "keyword.operator.new.js",
+        "keyword.operator.new",
+        "keyword.control.new.java",
         "support.class.builtin.js",
         "keyword.control.module.reference.js",
         "storage.modifier.js",
@@ -239,7 +230,6 @@
     },
     {
       "scope": [
-        "entity.name.function",
         "constant.numeric.json",
         "meta.arrow.tsx",
         "meta.brace.square.tsx",
@@ -259,7 +249,9 @@
         "meta.brace.square.js",
         "meta.delimiter.comma.js",
         "keyword.operator.accessor.js",
-        "entity.name.type.instance.js"
+        "entity.name.type.instance.js",
+        "entity.name.type.class",
+        "entity.other.inherited-class"
       ],
       "settings": {
         "foreground": "#249ef5"
@@ -267,13 +259,11 @@
     },
     {
       "scope": [
-        "entity.name.function.tsx",
+        "entity.name.function",
         "meta.brace.round.tsx",
         "entity.name.function.tagged-template.tsx",
-        "entity.name.function.ts",
         "meta.brace.round.ts",
         "entity.name.function.tagged-template.ts",
-        "entity.name.function.js",
         "entity.name.function.method.js"
       ],
       "settings": {
@@ -282,20 +272,7 @@
       }
     },
     {
-      "scope": [
-        "comment.block.tsx",
-        "comment.line.double-slash.tsx",
-        "comment.block.ts",
-        "comment.line.double-slash.ts",
-        "comment.block.jsx",
-        "comment.line.double-slash.jsx",
-        "comment.block.js",
-        "comment.line.double-slash.js",
-        "comment.block.documentation.js",
-        "comment.block.documentation.ts",
-        "comment.block.documentation.tsx",
-        "comment.block.javadoc.java"
-      ],
+      "scope": ["comment"],
       "settings": {
         "foreground": "#546e7a"
       }
@@ -326,7 +303,8 @@
         "support.type.builtin.primitive.flowtype",
         "meta.object.flowtype",
         "keyword.operator.optional.parameter.flowtype",
-        "storage.type.generic.java"
+        "storage.type.generic.java",
+        "punctuation.bracket.angle.java"
       ],
       "settings": {
         "foreground": "#FF9800"
