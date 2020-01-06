@@ -3,7 +3,7 @@
     "displayName": "Voir",
     "description": "Voir color scheme",
     "repository": "PierreCapo/voir-vscode-theme",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "publisher": "pierrecapo",
     "icon": "icon.png",
     "engines": {

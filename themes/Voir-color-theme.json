@@ -2,8 +2,8 @@
   "name": "Voir",
   "type": "dark",
   "colors": {
-    "editor.background": "#000025",
-    "sideBar.background": "#000025",
+    "editor.background": "#050523",
+    "sideBar.background": "#050523",
     "input.background": "#0b253a",
     "sideBarSectionHeader.background": "#011627",
     "editorGroupHeader.noTabsBackground": "#011627",
@@ -186,7 +186,13 @@
         "entity.quasi.element.js",
         "constant.language.undefined.tsx",
         "constant.language.undefined.ts",
-        "constant.language.undefined.js"
+        "constant.language.undefined.js",
+        "keyword.control.switch.js",
+        "keyword.control.conditional.js",
+        "keyword.control.switch.ts",
+        "keyword.control.conditional.ts",
+        "keyword.control.switch.tsx",
+        "keyword.control.conditional.tsx"
       ],
       "settings": {
         "foreground": "#b871d0"
