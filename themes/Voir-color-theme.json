@@ -13,6 +13,11 @@
     "activityBarBadge.background": "#189edc",
     "sideBarTitle.foreground": "#bbbbbb",
 
+    "titleBar.activeBackground": "#050523",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#050523",
+    "titleBar.inactiveForeground": "#56566b",
+
     "list.hoverBackground": "#ffffff05",
     "list.hoverForeground": "#ffffffee",
 
