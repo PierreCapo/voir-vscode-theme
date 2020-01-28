@@ -68,17 +68,17 @@
       "name": "entity.name.tag.tsx",
       "scope": [
         "support.class.component.tsx",
-        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.begin",
         "punctuation.definition.tag.end.tsx",
         "string.template.tsx",
         "support.class.component.ts",
-        "punctuation.definition.tag.begin.ts",
-        "punctuation.definition.tag.end.ts",
+        "punctuation.definition.tag.end",
         "string.template.ts",
         "meta.tag.jsx",
         "JSXEndTagStart",
         "JSXStartTagEnd",
-        "string.template.js"
+        "string.template.js",
+        "entity.name.class"
       ],
       "settings": {
         "foreground": "#f5e447"
@@ -150,7 +150,8 @@
         "storage.modifier.import.java",
         "variable.other.property.static.js",
         "variable.other.definition",
-        "variable.other"
+        "variable.other",
+        "kewyword.operator.intersection.flowtype"
       ],
       "settings": {
         "foreground": "#3dc7b9"
@@ -221,7 +222,8 @@
         "storage.modifier.js",
         "keyword.operator.typeof.js",
         "keyword.other.import.java",
-        "keyword.control.java"
+        "keyword.control.java",
+        "keyword.other.declare.flowtype"
       ],
       "settings": {
         "foreground": "#b871d0",
@@ -279,6 +281,7 @@
     },
     {
       "scope": [
+        "entity.name.type",
         "support.type.property-name.json",
         "entity.name.type.tsx",
         "entity.name.type.module.tsx",
